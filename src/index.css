@@ -7,6 +7,7 @@
 
 body{
   font-family: sans-serif;
+  background-image: url("../public/fundo.jpg");
   background-color: rgb(109, 109, 109);
 }
 
