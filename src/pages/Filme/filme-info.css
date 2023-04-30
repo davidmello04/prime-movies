@@ -29,7 +29,7 @@
 }
 
 .filme-info span{
-    margin: 8px 0;
+    margin: 12px 0;
     font-size: 17px;
 }
 
@@ -45,7 +45,7 @@
 
 .area-buttons button{
     margin-right: 12px;
-    margin-top: 14px;
+    margin-top: 18px;
     margin-left: 0;
     font-size: 17px;
     border: 0;
@@ -53,7 +53,7 @@
     padding: 12px;
     border-radius: 4px;
     cursor: pointer;
-    background-color: #000000;
+    background-color: #c90000;
     color: #FFF;
     font-weight: bold;
     text-transform: capitalize;
@@ -62,7 +62,7 @@
 }
 
 .area-buttons button:hover{
-    background-color: #414141a4;
+    background-color: #2e2e2ed0;
     color: #FFF;
 }
 

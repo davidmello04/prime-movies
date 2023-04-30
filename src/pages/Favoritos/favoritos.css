@@ -1,0 +1,62 @@
+.minha-lista{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0f0f0f;
+    color: #eeeeee;
+    padding: 20px;
+    margin-top: 24px;
+    min-height: 30vh;
+}
+
+.minha-lista h1{
+    margin-bottom: 30px;
+}
+
+.minha-lista span{
+    font-size: 20px;
+}
+
+.minha-lista ul{
+    width: 720px;
+}
+
+.minha-lista ul li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.minha-lista div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.minha-lista div a{
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #c90000;
+    color: #ffffff;
+    padding: 7px;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+button{
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #c90000;
+    color: #ffffff;
+    padding: 7px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: none;
+}
