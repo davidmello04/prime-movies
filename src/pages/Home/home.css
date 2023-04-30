@@ -20,7 +20,7 @@
     align-items: center;
     margin: 0 auto;
     margin-bottom: 25px;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .lista-filmes strong {
@@ -78,6 +78,17 @@
 hr{
     color: #eeeeee;
     width: 100%;
+}
+
+h1{
+    max-width: 1400px;
+    margin: 0 auto;
+    color: #eeeeee;
+    background-color: #0f0f0f;
+    padding: 0px 50px;
+    padding-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
 }
 
 /* Estilos para telas médias */

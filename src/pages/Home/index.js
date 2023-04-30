@@ -40,6 +40,7 @@ function Home(){
 
     return(
         <div className="container">
+            <h1>Filmes e Series em Destaques</h1>
             <div className="lista-filmes">
                 {filmes.map((filme) => {
                     return(
