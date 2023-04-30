@@ -153,4 +153,12 @@ h1{
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
     }
+
+    h1{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 25px;
+        text-align: center;
+        margin: 0;
+    }
 }
