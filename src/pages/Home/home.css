@@ -104,6 +104,7 @@ h1{
 
     .lista-filmes strong {
         font-size: 20px;
+        margin-bottom: 20px;
     }
 
     .lista-filmes a {
@@ -131,13 +132,13 @@ h1{
     .lista-filmes article {
         width: 100%;
         padding: 15px;
-        margin: 10px 0;
+        margin: 9px 0;
         box-shadow: none;
     }
     
     .lista-filmes strong {
         font-size: 20px;
-        padding: 10px 0;
+        padding: 3px 0;
     }
     
     .lista-filmes img {
@@ -155,8 +156,8 @@ h1{
     }
 
     h1{
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 12px;
+        padding-bottom: 12px;
         font-size: 25px;
         text-align: center;
         margin: 0;
