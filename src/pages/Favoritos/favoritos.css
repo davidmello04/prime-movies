@@ -7,8 +7,7 @@
     background-color: #0f0f0f;
     color: #eeeeee;
     padding: 20px;
-    margin-top: 24px;
-    min-height: 30vh;
+    min-height: 75vh;
 }
 
 .minha-lista h1 {
@@ -45,7 +44,7 @@
     padding: 7px;
     border-radius: 4px;
     margin-right: 10px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     text-transform: capitalize;
 }
@@ -57,7 +56,7 @@ button {
     color: #ffffff;
     padding: 7px;
     border-radius: 4px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     text-transform: capitalize;
     border: none;
@@ -69,7 +68,7 @@ button {
     .minha-lista {
         padding: 0;
         margin-top: 0;
-        min-height: 20vh;
+        min-height: 75vh;
     }
 
     .minha-lista h1 {

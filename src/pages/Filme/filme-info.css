@@ -1,7 +1,7 @@
 
 .filme-info{
-    margin: 0 auto;
-    margin-top: 18px;
+    margin: 20px auto;
+    margin-bottom: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,10 +10,13 @@
     background-color: #c4c4c4;
     border-radius: 8px;
     box-shadow: 1px 1px 5px 5px #414141a4;
+    min-height: 75vh;
 }
 
 .filme-info h1{
     margin: 14px 0;
+    background-color: transparent;
+    color: #000000;
 }
 
 .filme-info img{
