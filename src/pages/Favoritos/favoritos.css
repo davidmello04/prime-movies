@@ -68,12 +68,13 @@ button {
 @media only screen and (max-width: 600px) {
     .minha-lista {
         padding: 0;
-        margin-top: 16px;
+        margin-top: 0;
         min-height: 20vh;
     }
 
     .minha-lista h1 {
         font-size: 24px;
+        margin-top: 5px;
         margin-bottom: 20px;
     }
 
