@@ -1,4 +1,6 @@
-.minha-lista{
+/* Estilos padrão para telas maiores */
+
+.minha-lista {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -9,19 +11,19 @@
     min-height: 30vh;
 }
 
-.minha-lista h1{
+.minha-lista h1 {
     margin-bottom: 30px;
 }
 
-.minha-lista span{
+.minha-lista span {
     font-size: 20px;
 }
 
-.minha-lista ul{
+.minha-lista ul {
     width: 720px;
 }
 
-.minha-lista ul li{
+.minha-lista ul li {
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -29,13 +31,13 @@
     margin-bottom: 14px;
 }
 
-.minha-lista div{
+.minha-lista div {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.minha-lista div a{
+.minha-lista div a {
     text-decoration: none;
     cursor: pointer;
     background-color: #c90000;
@@ -48,7 +50,7 @@
     text-transform: capitalize;
 }
 
-button{
+button {
     text-decoration: none;
     cursor: pointer;
     background-color: #c90000;
@@ -59,4 +61,48 @@ button{
     font-weight: bold;
     text-transform: capitalize;
     border: none;
+}
+
+/* Estilos para telas menores */
+
+@media only screen and (max-width: 600px) {
+    .minha-lista {
+        padding: 0;
+        margin-top: 16px;
+        min-height: 20vh;
+    }
+
+    .minha-lista h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .minha-lista span {
+        font-size: 17px;
+    }
+
+    .minha-lista ul {
+        width: 100%;
+    }
+
+    .minha-lista ul li {
+        padding: 10px;
+        margin-bottom: 20px;
+        background-color: #181818;
+    }
+
+    .minha-lista div {
+      width: 50vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .minha-lista div a {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 12px;
+    }
 }
