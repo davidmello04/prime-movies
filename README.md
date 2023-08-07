@@ -25,7 +25,7 @@ Tela Detalhes do Filme![image](https://github.com/davidmello04/dragonballz-memor
 
 ## Como Usar
 
-1. Clone este repositório para o seu ambiente local usando o seguinte comando: git clone https://github.com/SEU_USUARIO/movie-explorer-app.git
+1. Clone este repositório para o seu ambiente local usando o seguinte comando: git clone https://github.com/davidmello04/prime-movies
 2. Navegue para o diretório do projeto: cd prime-movies
 3. Instale as dependências do projeto: npm install
 4. Inicie a aplicação: npm start
