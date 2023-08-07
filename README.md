@@ -34,9 +34,8 @@ Tela Detalhes do Filme![image](https://github.com/davidmello04/dragonballz-memor
 
 ## Configuração da API
 
-Para que a aplicação funcione corretamente, você precisará de uma chave de API válida do The Movie Database (TMDb). No arquivo src/services/api.js, substitua 'SUA_CHAVE_DE_API' pelo valor da sua chave.
- 1. baseURL: 'https://api.themoviedb.org/3/'
-
+* Para que a aplicação funcione corretamente, você precisará de uma chave de API válida do The Movie Database (TMDb).
+* Crie um arquivo "env.local" na raiz do projeto e adicione REACT_APP_API_KEY="SUA_CHAVE_KEY" 
 
 ## Tecnologias Utilizadas
 
