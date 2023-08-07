@@ -1,0 +1,165 @@
+/* Estilos padrão para telas grandes */
+.lista-filmes {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: #0f0f0f;
+    padding: 30px 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.lista-filmes article {
+    width: calc(19.33% - 20px);
+    color: #ececec;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.lista-filmes strong {
+    padding: 0 5px;
+    margin-top: 15px;
+    width: 100%;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista-filmes img {
+    width: 500px;
+    max-width: 100%;
+    object-fit: cover;
+    display: block;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    box-shadow: 0px 0px 1px 2px #2e2e2ea4;
+}
+
+.lista-filmes a {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    background-color: #c90000;
+    color: #eeeeee;
+    text-decoration: none;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top: 3px solid #ececec;
+    box-shadow: 1px 1px 1px 2px #2e2e2ea4;
+}
+
+.lista-filmes a:hover{
+    background-color: #eeeeee;
+    color: #1a1a1abe;;
+}
+
+.loading{
+    color: #eeeeee;
+    margin: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+hr{
+    color: #eeeeee;
+    width: 100%;
+}
+
+h1{
+    max-width: 1400px;
+    margin: 0 auto;
+    color: #eeeeee;
+    background-color: #0f0f0f;
+    padding: 0px 50px;
+    padding-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+/* Estilos para telas médias */
+@media (max-width: 1200px) {
+    .lista-filmes {
+        padding: 20px;
+    }
+
+    .lista-filmes article {
+        width: calc(33.33% - 20px);
+        margin-bottom: 20px;
+    }
+
+    .lista-filmes strong {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .lista-filmes a {
+        font-size: 18px;
+        padding: 6px 0;
+        border-radius: 0;
+        border-top: none;
+    }
+}
+
+
+/* Estilos para telas menores */
+@media (max-width: 768px) {
+    .lista-filmes {
+        max-width: 100%;
+        min-width: 200px;
+        margin: 0;
+        flex-wrap: nowrap;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        background: #1a1a1abe;
+    }
+    
+    .lista-filmes article {
+        width: 100%;
+        padding: 15px;
+        margin: 9px 0;
+        box-shadow: none;
+    }
+    
+    .lista-filmes strong {
+        font-size: 20px;
+        padding: 3px 0;
+    }
+    
+    .lista-filmes img {
+        width: 100%;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    
+    .lista-filmes a {
+        width: 100%;
+        font-size: 20px;
+        padding: 8px 0;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    h1{
+        padding-top: 12px;
+        padding-bottom: 12px;
+        font-size: 25px;
+        text-align: center;
+        margin: 0;
+    }
+}

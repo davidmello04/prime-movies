@@ -1,0 +1,108 @@
+/* Estilos padrão para telas maiores */
+
+.minha-lista {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0f0f0f;
+    color: #eeeeee;
+    padding: 20px;
+    min-height: 75vh;
+}
+
+.minha-lista h1 {
+    margin-bottom: 30px;
+}
+
+.minha-lista span {
+    font-size: 20px;
+}
+
+.minha-lista ul {
+    width: 720px;
+}
+
+.minha-lista ul li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.minha-lista div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.minha-lista div a {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #c90000;
+    color: #ffffff;
+    padding: 7px;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+button {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #c90000;
+    color: #ffffff;
+    padding: 7px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: none;
+}
+
+/* Estilos para telas menores */
+
+@media only screen and (max-width: 600px) {
+    .minha-lista {
+        padding: 0;
+        margin-top: 0;
+        min-height: 75vh;
+    }
+
+    .minha-lista h1 {
+        font-size: 24px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+
+    .minha-lista span {
+        font-size: 17px;
+    }
+
+    .minha-lista ul {
+        width: 100%;
+    }
+
+    .minha-lista ul li {
+        padding: 10px;
+        margin-bottom: 20px;
+        background-color: #181818;
+    }
+
+    .minha-lista div {
+      width: 50vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .minha-lista div a {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 12px;
+    }
+}
