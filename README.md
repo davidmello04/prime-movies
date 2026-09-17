@@ -1,6 +1,40 @@
-# prime-movies
+Prime Movies
 
-O Prime Movies é uma aplicação web desenvolvida em React que permite aos usuários explorar e acompanhar os filmes em cartaz, salvar seus favoritos e obter informações detalhadas sobre cada filme, incluindo sinopse, avaliação e trailer. A aplicação utiliza a API do The Movie Database (TMDb) para obter dados atualizados sobre filmes.
+Aplicação web desenvolvida em React para consultar filmes em cartaz, visualizar informações detalhadas e manter uma lista de favoritos no navegador. Os dados são consumidos da API do The Movie Database (TMDb).
+
+Funcionalidades
+
+listagem de filmes em cartaz;
+
+visualização de título, pôster, sinopse e avaliação;
+
+acesso à pesquisa do trailer no YouTube;
+
+inclusão e remoção de filmes da lista de favoritos;
+
+persistência dos favoritos com localStorage;
+
+navegação entre páginas com React Router;
+
+notificações de ações com React Toastify;
+
+tratamento de rota para filmes não encontrados.
+
+Tecnologias
+
+React 18
+
+JavaScript
+
+React Router DOM
+
+Axios
+
+React Toastify
+
+CSS
+
+API do TMDb
 
 
 ## Screenshots
